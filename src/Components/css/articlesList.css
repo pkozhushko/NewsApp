@@ -1,0 +1,46 @@
+.list__header {
+  color: #f4841a;
+}
+
+.list {
+  width: 50vw;
+  background: #b0b5b5;
+  -moz-box-shadow:     0 0 10px #000000;
+  -webkit-box-shadow:  0 0 10px #000000;
+  box-shadow:          0 0 10px #000000;
+  padding: 1.5rem 3rem;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: baseline;
+}
+
+.item__body {
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+  transition: all .3s ease-out;
+}
+.item__body:first-letter {
+  text-transform: uppercase;
+}
+.item__body:hover {
+  list-style: none;
+  padding-left: 1.5rem;
+  color: #cc6404;
+}
+
+.item__btn-delete {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  transition: all .3s ease-out;
+}
+.item__btn-delete:hover {
+  color: #c6091c;
+  transform: scale(1.3);
+}

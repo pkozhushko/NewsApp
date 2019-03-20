@@ -1,0 +1,19 @@
+.article__container {
+  width: 50vw;
+  background: #b0b5b5;
+  -moz-box-shadow:     0 0 10px #000000;
+  -webkit-box-shadow:  0 0 10px #000000;
+  box-shadow:          0 0 10px #000000;
+  padding: 1.5rem 3rem;
+  border-radius: 2px;
+}
+
+.article__header {
+  text-transform: uppercase;
+  text-align: center;
+  color: #004c56;
+}
+
+.article__body:first-letter {
+  text-transform: uppercase;
+}

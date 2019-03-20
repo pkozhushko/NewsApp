@@ -1,0 +1,43 @@
+.form  {
+  -moz-box-shadow:     0 0 10px #000000;
+  -webkit-box-shadow:  0 0 10px #000000;
+  box-shadow:          0 0 10px #000000;
+  background: rgba(176, 181, 181, 0.2);
+  padding: 1.5rem 3rem;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(244, 132, 26);
+}
+
+.form__btn, .form__input{
+  border: 1px solid #222830;
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  height: 1.7rem;
+}
+
+.form__input{
+  text-align: center;
+}
+
+.form__btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 5rem;
+  background: rgba(244, 132, 26, 0.2);
+  transition: all .3s ease-out;
+}
+.form__btn:hover {
+  background: rgb(244, 132, 26);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.wrongUsername {
+  display: none;
+}
